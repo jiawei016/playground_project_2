@@ -5,3 +5,4 @@ dotnet tool update --global dotnet-ef
 Run migrations
 dotnet ef migrations add "InitialMigration" -o Data/Migrations --project AuctionService
 Update-Database
+Drop-Database -context AuctionDbContext
