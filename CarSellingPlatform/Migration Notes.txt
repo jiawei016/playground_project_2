@@ -4,5 +4,7 @@ dotnet tool update --global dotnet-ef
 
 Run migrations
 dotnet ef migrations add "InitialMigration" -o Data/Migrations --project AuctionService
+dotnet ef migrations add "Outbox" -o Data/Migrations --project D:\Storage\Project\playground_project_2\CarSellingPlatform\src\AuctionService\AuctionService.csproj
+
 Update-Database
 Drop-Database -context AuctionDbContext
